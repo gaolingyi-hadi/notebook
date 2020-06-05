@@ -1,4 +1,4 @@
-#如何使用 GitHub Pages 预览 HTML
+# 如何使用 GitHub Pages 预览 HTML
 
 收首先进入需要预览的仓库,找到`Settings`
 ![](https://user-gold-cdn.xitu.io/2020/6/5/1728254e8875e847?w=2228&h=698&f=png&s=169207)
