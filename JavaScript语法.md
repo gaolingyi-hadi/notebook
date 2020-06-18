@@ -41,8 +41,8 @@ for (let i = 0; i < 5; i++) {
     forlabel2:
     for(let j = 0; j < 5; j++) {
         if(i === 2 && j === 2){
-            break continue;
-            //这样就能中断最外面的循环了
+            break forlabel1;
+            //这样就直接跳出整个循环了
         }
     }
 }
