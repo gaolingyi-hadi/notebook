@@ -45,7 +45,7 @@ for(let i = 0; i<3; i++){
 这我们就明白了,真实的`i`已经变成3了,但是`setTimeout`又能输出之前已经不存在的`i`,说明`setTimeout`输出的`i`其实是真实`i`的一份拷贝,循环每执行一次,那么js会对当前`i`进行一次拷贝,提供给`setTimeout`使用,这就是`let`和`for`同时存在的隐藏机制
 
 ## 那怎样真正做到循环延迟呢?
-我们可以用递归实现
+我们这次使用其中一种方式演示,递归实现
 ```js
 function myfor(i, frequency, fn) {
     if (i < frequency) {
