@@ -41,6 +41,5 @@ console.log(obj.hasOwnProperty('toString'))//false
 ```
 **由此可知**
 
-`hasOwnProperty`表示对象自身属性中是否具有指定的属性(键)
-
-`in`表示`hasOwnProperty`基础上,再包括原型属性
+* `hasOwnProperty`表示对象自身属性中是否具有指定的属性(键)
+* `in`表示`hasOwnProperty`基础上,再包括原型属性
