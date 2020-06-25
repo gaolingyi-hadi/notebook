@@ -1,4 +1,4 @@
-# 《HTML入门笔记1》
+# 《HTML入门笔记》
 
 ## I、HTML 是谁发明的
 由Tim Berners-Lee在1990年左右发明,WWW（万维网）就是指URL、HTML、HTTP。
